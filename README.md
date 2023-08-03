@@ -9,6 +9,9 @@ Credit score cards are a widely employed risk management approach in the financi
 - Create time dimension using PDI.
 - Create fact table using PDI.
 
+## Content 
+This repository contains ETL file using Pentaho Data Integration (PDI).
+
 ## Data Field   
 ### Application Record :
 | Variable Name | Description |
@@ -39,3 +42,5 @@ Credit score cards are a widely employed risk management approach in the financi
 | `ID` | Client number |  |
 | `MONTHS_BALANCE` | Record month | The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on |
 | `STATUS` | Status | 0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month |
+
+## ETL Process
