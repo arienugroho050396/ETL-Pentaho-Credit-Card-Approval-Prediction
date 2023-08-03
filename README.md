@@ -8,3 +8,34 @@ Credit score cards are a widely employed risk management approach in the financi
 - Perform ETL using PDI for both datasets.
 - Create time dimension using PDI.
 - Create fact table using PDI.
+
+## Data Field   
+### Application Record :
+| Variable Name | Description |
+| --- | --- |
+| `ID` | Customer's unique identifier |
+| `Code_Gender` | Gender |
+| `Flag_Own_Car` | Is there a car |
+| `Flag_Own_Realty` | Is there a property |
+| `CNT_Children` | Number of children |
+| `AMT_Income_Total` | Annual income |
+| `Name_Income_Type` | 	Income category |
+| `Name_Education_Type` | Education level |
+| `Name_Family_Status` | Marital status |
+| `Name_Housing_Type` | Way of living  |
+| `Days_Birth` | 	Birthday |
+| `Days_Employed` | Start date of employment |
+| `Flag_Mobil` | Is there a mobile phone |
+| `Flag_Work_Phone` | Is there a work phone |
+| `Flag_Phone` | Is there a phone |
+| `Flag_Email` | Is there an email |
+| `Occupation_Type` | Occupation |
+| `Cnt_Family_Members` | Family Size |
+
+
+### Credit Record :
+| Variable Name | Description | Remarks |
+| --- | --- | --- |
+| `ID` | Client number |  |
+| `MONTHS_BALANCE` | Record month | The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on |
+| `STATUS` | Status | 0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month |
