@@ -90,6 +90,12 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 ### Replace in String 3
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%203%20(credit).JPG" alt="This is an image" width="600">
 
+### Filter Rows 3
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Filter%20Row%203%20(credit).JPG" alt="This is an image" width="500">
+
+### Select Values 2
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Select%20Values%202%20(credit).JPG" alt="This is an image" width="500">
+
 ### Group By
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Group%20By%20(credit).JPG" alt="This is an image" width="500">
 
