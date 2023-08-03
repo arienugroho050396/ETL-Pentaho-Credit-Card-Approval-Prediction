@@ -90,3 +90,15 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 ### Replace in String 3
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%203%20(credit).JPG" alt="This is an image" width="600">
 
+### Group By
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Group%20By%20(credit).JPG" alt="This is an image" width="500">
+
+### Modified Javascript Value
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Modified%20Javascript%20Value%20(credit).JPG" alt="This is an image" width="500">
+
+## Output Join Application Record and Credit Record
+### Stream Lookup
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Stream%20Lookup%20(app).JPG" alt="This is an image" width="500">
+
+
+
