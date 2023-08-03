@@ -44,3 +44,4 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 | `STATUS` | Status | 0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month |
 
 ## ETL Process
+![This is an image](https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/ETL%20Process.JPG)
