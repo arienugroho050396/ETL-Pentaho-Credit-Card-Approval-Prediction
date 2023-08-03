@@ -63,9 +63,12 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Add%20Constrant%20(app).JPG" alt="This is an image" width="500">
 
 ### Calculator
-<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Calculator%20(app).JPG" alt="This is an image" width="500">
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Calculator%20(app).JPG" alt="This is an image" width="600">
 
 ### Filter Rows
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Filter%20Row%20(app).JPG" alt="This is an image" width="500">
 
+## Credit Record
+### CSV File Input
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/CSV%20File%20Input%20(credit).JPG" alt="This is an image" width="400">
 
