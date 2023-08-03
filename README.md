@@ -55,3 +55,10 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 
 ### Unique Rows
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Unique%20Row%20(app).JPG" alt="This is an image" width="400">
+
+### Replace in String
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%20(app).JPG" alt="This is an image" width="400">
+
+### Add Constant
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Add%20Constrant%20(app).JPG" alt="This is an image" width="400">
+
