@@ -79,8 +79,8 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Add%20Constrant%202%20(credit).JPG" alt="This is an image" width="500">
 
 ### Calculator 2
-<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Calculator%20(credit).JPG" alt="This is an image" width="500">
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Calculator%20(credit).JPG" alt="This is an image" width="600">
 
 ### Replace in String 2
-<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%202%20(credit).JPG" alt="This is an image" width="500">
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%202%20(credit).JPG" alt="This is an image" width="600">
 
