@@ -100,5 +100,12 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 ### Stream Lookup
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Stream%20Lookup%20(app).JPG" alt="This is an image" width="500">
 
+### Filter Rows 2
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Filter%20Row%202.JPG" alt="This is an image" width="500">
 
+### Select Values
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Select%20Values.JPG" alt="This is an image" width="500">
+
+### Text File Output
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Text%20File%20Output.JPG" alt="This is an image" width="500">
 
