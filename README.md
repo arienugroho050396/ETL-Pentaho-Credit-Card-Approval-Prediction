@@ -48,5 +48,5 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 
 ## Application Record
 ### CSV File Input
-<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/CSV%20file%20input%20(app).JPG" alt="This is an image" width="200">
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/CSV%20file%20input%20(app).JPG" alt="This is an image" width="400">
 
