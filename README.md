@@ -49,69 +49,96 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 ## Application Record
 ### CSV File Input
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/CSV%20file%20input%20(app).JPG" alt="This is an image" width="500">
+- importing data application record CSV
 
 ### Sort Rows
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Sort%20Row%20(app).JPG" alt="This is an image" width="500">
+- Sort data based on ID (in ascending order)
 
 ### Unique Rows
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Unique%20Row%20(app).JPG" alt="This is an image" width="400">
+- Filtering duplicate ID
 
 ### Replace in String
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%20(app).JPG" alt="This is an image" width="500">
+- Replacing 'Y' with 1, and 'N' with 0
 
 ### Add Constants
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Add%20Constrant%20(app).JPG" alt="This is an image" width="500">
+- Adding 'Current_Date' column
 
 ### Calculator
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Calculator%20(app).JPG" alt="This is an image" width="600">
+- Calculating applicant age and how long applicant have been working (in years)
 
 ### Filter Rows
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Filter%20Row%20(app).JPG" alt="This is an image" width="500">
+- Filter the data applicant that is less than 21 years old
+- Filter the data applicant with null/empty values
 
 ## Credit Record
 ### CSV File Input
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/CSV%20File%20Input%20(credit).JPG" alt="This is an image" width="500">
+- Importing data credit record CSV
 
 ### Sort Rows 2
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Sort%20Row%20(credit).JPG" alt="This is an image" width="500">
+- Sort data based on ID (in ascending order)
 
 ### Add Constants 2
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Add%20Constrant%202%20(credit).JPG" alt="This is an image" width="500">
+- Adding 'Current_Date' column
 
 ### Calculator 2
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Calculator%20(credit).JPG" alt="This is an image" width="600">
+- Calculating month loan payment
+- Creating copy of 'status' column
 
 ### Replace in String 2
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%202%20(credit).JPG" alt="This is an image" width="600">
+- Replace C, X, 0 with 'Good Debt' (C: loan for that month is already paid; X: no loan for that month; 0: loan is 1 to 29 days overdue).
+- Replace 1, 2, 3, 4, 5 with 'Bad Debt' (1: loan is 30 to 59 days overdue; 2: loan is 60 to 89 days overdue; 3: loan is 90 to 119 days overdue; 4: loan is 120 to 149 days overdue; 5: loan is more than 150 days overdue).
 
 ### Calculator 3
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Calculator%203%20(credit).JPG" alt="This is an image" width="600">
+- Creating 2 copies of 'STATUS2' column (Good_Debt and Bad_Debt).
 
 ### Replace in String 3
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Replace%20in%20String%203%20(credit).JPG" alt="This is an image" width="600">
+- Good_Debt: Good Debt will be change to 1, while Bad Debt will be change to 0.
+- Bad_Debt: Good Debt will be change to 0, while Bad Debt will be change to 1.
 
 ### Filter Rows 3
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Filter%20Row%203%20(credit).JPG" alt="This is an image" width="500">
+
 
 ### Select Values 2
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Select%20Values%202%20(credit).JPG" alt="This is an image" width="500">
 
 ### Group By
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Group%20By%20(credit).JPG" alt="This is an image" width="500">
+- Calculating total of Good Debt and Bad Debt from each applicant (similar to group by function in SQL).
 
 ### Modified Javascript Value
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Modified%20Javascript%20Value%20(credit).JPG" alt="This is an image" width="500">
+- If the total of Good Debt is higher than Bad Debt, then an applicant status will be eligible (1).
+- If the total of Bad Debt is higher than Good Debt, then an applicant status will be not eligible (0).
+
 
 ## Output Join Application Record and Credit Record
 ### Stream Lookup
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Stream%20Lookup%20(app).JPG" alt="This is an image" width="500">
+- Bad_Debt_CNT, Good_Debt_CNT, and STATUS will be merged based on applicant ID.
 
 ### Filter Rows 2
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Filter%20Row%202.JPG" alt="This is an image" width="500">
+- Applicant with empty Bad_Debt_CNT, Good_Debt_CNT, and STATUS will be deleted.
 
 ### Select Values
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Select%20Values.JPG" alt="This is an image" width="500">
+- Select columns that will extracted.
 
 ### Text File Output
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Text%20File%20Output.JPG" alt="This is an image" width="500">
+- Exporting cleaned and transformed data set into CSV file.
 
