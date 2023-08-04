@@ -145,6 +145,6 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 ## Output :
 **Preview data from the output table**
 
-<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/output1.JPG" alt="This is an image" width="700">
-<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/output%202.JPG" alt="This is an image" width="700">
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/output1.JPG" alt="This is an image" width="1000">
+<img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/output%202.JPG" alt="This is an image" width="1000">
 
