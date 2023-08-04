@@ -122,7 +122,7 @@ This repository contains ETL file using Pentaho Data Integration (PDI).
 ### Modified Javascript Value
 <img src="https://github.com/arienugroho050396/ETL-Pentaho-Credit-Card-Approval-Prediction/blob/main/Pentaho%20SS/Modified%20Javascript%20Value%20(credit).JPG" alt="This is an image" width="500">
 - If the total of Good Debt is higher than Bad Debt, then an applicant status will be eligible (1).
-- If the total of Bad Debt is higher than Good Debt, then an applicant status will be not eligible (0).
+- If the total of Bad Debt is higher than Good Debt, then an applicant status will be not eligible (0). 
 
 
 ## Output Join Application Record and Credit Record
