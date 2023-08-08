@@ -6,7 +6,7 @@ Credit score cards are a widely employed risk management approach in the financi
 
 ## Objective  
 - Perform ETL using PDI for both datasets.
-- Create time dimension using PDI.
+- Create time dimension using PDI. 
 - Create fact table using PDI.
 
 ## Content 
