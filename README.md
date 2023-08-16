@@ -8,7 +8,7 @@ Credit score cards are a widely employed risk management approach in the financi
 - Perform ETL using PDI for both datasets.
 - Create time dimension using PDI. 
 - Create fact table using PDI.
-
+ 
 ## Content  
 This repository contains ETL file using Pentaho Data Integration (PDI).
 
